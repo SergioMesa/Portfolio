@@ -1,0 +1,16 @@
+c:\users\geeks\documents\visual studio 2012\Projects\Portfolio\Portfolio\bin\Portfolio.dll
+c:\users\geeks\documents\visual studio 2012\Projects\Portfolio\Portfolio\bin\Portfolio.pdb
+c:\users\geeks\documents\visual studio 2012\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+c:\users\geeks\documents\visual studio 2012\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.dll
+c:\users\geeks\documents\visual studio 2012\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.pdb
+C:\Users\Geeks\Documents\Visual Studio 2012\Projects\Portfolio.Git\Portfolio\bin\Portfolio.dll
+C:\Users\Geeks\Documents\Visual Studio 2012\Projects\Portfolio.Git\Portfolio\bin\Portfolio.pdb
+C:\Users\Geeks\Documents\Visual Studio 2012\Projects\Portfolio.Git\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+C:\Users\Geeks\Documents\Visual Studio 2012\Projects\Portfolio.Git\Portfolio\obj\Debug\Portfolio.dll
+C:\Users\Geeks\Documents\Visual Studio 2012\Projects\Portfolio.Git\Portfolio\obj\Debug\Portfolio.pdb
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\Portfolio.Git\Portfolio\bin\Portfolio.dll.config
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\Portfolio.Git\Portfolio\bin\Portfolio.dll
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\Portfolio.Git\Portfolio\bin\Portfolio.pdb
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\Portfolio.Git\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\Portfolio.Git\Portfolio\obj\Debug\Portfolio.dll
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\Portfolio.Git\Portfolio\obj\Debug\Portfolio.pdb
