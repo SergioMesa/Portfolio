@@ -13,6 +13,24 @@
 .row > div {
   border: 1px solid red;
 }
+.bs-sidebar {
+  display: table;
+  height: 100%;
+}
+.bs-sidebar .bs-sidenav {
+  display: table-cell;
+  vertical-align: middle;
+}
+#title1 {
+  padding: 20px;
+  margin-top: 300px;
+  border: 1px solid green;
+}
+#title2 {
+  padding: 20px;
+  margin-top: 1200px;
+  border: 1px solid orange;
+}
 /*.position-fixed {
     position: fixed;
 }*/

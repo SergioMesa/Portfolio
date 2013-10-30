@@ -19,25 +19,37 @@
             <div class="col-md-2">
                 <div class="bs-sidebar hidden-print affix">
                     <ul class="nav bs-sidenav">
-                        <li class=""><a>FORMACIÓN ACADÉMICA</a></li>
-                        <li class=""><a>EXPERIENCIA PROFESIONAL</a></li>
+                        <li class=""><a href="#title1">FORMACIÓN ACADÉMICA</a></li>
+                        <li class=""><a href="#title2">EXPERIENCIA PROFESIONAL</a></li>
                         <li class=""><a>CONOCIMIENTOS TÉCNICOS</a></li>
                         <li class=""><a>FORMACIÓN COMPLEMENTARIA</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-9" style="height:3000px;" >
-                Something here
+            <div class="col-md-9" style="height: 3000px;">
+                <div id="title1">
+                    Formacion Academica
+                </div>
+
+                <div id="title2">
+                    Experiencia profesional
+                </div>
             </div>
 
             <div class="col-md-1">
+                <div class="bs-sidebar hidden-print affix">
+                    <ul class="nav bs-sidenav">
+                        <li class=""><a>LindedIn</a></li>
+                        <li class=""><a>CV</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
     <script src="Scripts/skrollr.js"></script>
     <script type="text/javascript">
-        var s = skrollr.init();
+        var s = skrollr.init(smoothScrollingDuration = 200);
     </script>
 </body>
 </html>
