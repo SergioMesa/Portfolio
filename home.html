@@ -5,6 +5,7 @@
 
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery.scrollTo-1.4.3.1.js"></script>
 
     <link href="Content/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="Content/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
@@ -14,25 +15,38 @@
 </head>
 
 <body>
-    <div class="container" id="#skrollr-body">
+    <div class="container" id="skrollr-body">
         <div class="row">
             <div class="col-md-2">
                 <div class="bs-sidebar hidden-print affix">
                     <ul class="nav bs-sidenav">
                         <li class=""><a href="#title1">FORMACIÓN ACADÉMICA</a></li>
                         <li class=""><a href="#title2">EXPERIENCIA PROFESIONAL</a></li>
-                        <li class=""><a>CONOCIMIENTOS TÉCNICOS</a></li>
-                        <li class=""><a>FORMACIÓN COMPLEMENTARIA</a></li>
+                        <li class=""><a href="#title3">CONOCIMIENTOS TÉCNICOS</a></li>
+                        <li class=""><a href="#title4">FORMACIÓN COMPLEMENTARIA</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-9" style="height: 3000px;">
-                <div id="title1">
-                    Formacion Academica
+            <div class="col-md-9">
+                <div class="page" id="title1">
+                    <div>
+                        Formacion Academica
+                    </div>
                 </div>
-
-                <div id="title2">
-                    Experiencia profesional
+                <div class="page" id="title2">
+                    <div>
+                        Experiencia profesional
+                    </div>
+                </div>
+                <div class="page" id="title3">
+                    <div>
+                        Conocimientos tecnicos
+                    </div>
+                </div>
+                <div class="page" id="title4">
+                    <div>
+                        Formacion complementaria
+                    </div>
                 </div>
             </div>
 
@@ -49,7 +63,21 @@
 
     <script src="Scripts/skrollr.js"></script>
     <script type="text/javascript">
-        var s = skrollr.init(smoothScrollingDuration = 200);
+        var s = skrollr.init(
+            {
+                forceHeight: true,
+                smoothScrollingDuration: 200,
+                smoothScrolling: true
+            });
+
+        //ScrollTo
+        $(".nav a").click(function (e) {
+            e.preventDefault();
+            $(window).scrollTo($(this).attr("href"), 800);
+        });
+
+        //Window size
+        $(".page").height(window.innerHeight);
     </script>
 </body>
 </html>
