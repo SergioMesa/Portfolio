@@ -63,6 +63,22 @@
 
     <script src="Scripts/skrollr.js"></script>
     <script type="text/javascript">
+        $(".page").each(
+                function (index) {
+                    
+                    var pos = window.innerHeight * index;
+                    var pos2 = pos + window.innerHeight - 1;
+                    var page = $(this);
+
+                    page.attr("data-0", "display:" + (index == 0 ? "block" : "none") + ";");
+
+                    if (index != 0)
+                    page.attr("data-" + pos, "display:block;");
+
+                    page.attr("data-" + pos2, "display:none;");
+                }
+            );
+
         var s = skrollr.init(
             {
                 forceHeight: true,
@@ -71,13 +87,17 @@
             });
 
         //ScrollTo
-        $(".nav a").click(function (e) {
-            e.preventDefault();
-            $(window).scrollTo($(this).attr("href"), 800);
+        $(".nav a").each(function (index) {
+            $(this).click(function (e) {
+                e.preventDefault();                
+                $(window).scrollTo((window.innerHeight * index) + 1, 800);
+            });
         });
 
         //Window size
         $(".page").height(window.innerHeight);
+        $(".page").width($(".col-md-9").width());
+
     </script>
 </body>
 </html>

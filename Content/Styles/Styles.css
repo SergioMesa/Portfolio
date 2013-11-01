@@ -21,7 +21,12 @@
   display: table-cell;
   vertical-align: middle;
 }
+.col-md-9 {
+  /*position: relative;*/
+
+}
 .page {
+  position: fixed;
   display: table;
   width: 100%;
 }
